@@ -25,7 +25,6 @@ class RegisterRequestModel {
   late String password;
   late String password_confirmation;
   late String known_from;
-
   RegisterRequestModel({
     required this.email,
     required this.password,
